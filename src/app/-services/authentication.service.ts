@@ -9,7 +9,10 @@ import { AlertService, UserService } from '../-services/index';
 @Injectable()
 export class AuthenticationService {
     constructor(private http: Http,private router: Router,private alertService: AlertService) { }    
-    private apiUrl = 'http://595b3ea8c985be0011f66772.mockapi.io'
+    
+    //used file object json
+    //private apiUrl = 'http://595b3ea8c985be0011f66772.mockapi.io'
+    private apiUrl = './app/-services/user.service.json'
 
     // login(username: string, password: string) {
     //     return this.http.post(`${this.apiUrl}/user2`, JSON.stringify({ username: username, password: password }))
@@ -28,7 +31,8 @@ export class AuthenticationService {
     // }
 
     login(username: string, password: string) {           
-        return this.http.get(`${this.apiUrl}/users`)
+        // return this.http.get(`${this.apiUrl}/users`)
+        return this.http.get(`${this.apiUrl}`)
             .map((response: Response) => {
                 // login successful if there's a jwt token in the response
                 let user = response.json();

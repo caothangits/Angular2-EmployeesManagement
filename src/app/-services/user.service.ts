@@ -16,8 +16,10 @@ export class UserService {
 	// Put Edit Item : http://58e605d279739c1200ed3c82.mockapi.io/api/users/:id
 	// Delete Item : http://58e605d279739c1200ed3c82.mockapi.io/api/users/:id
 
-	private apiUrl = 'http://595b3ea8c985be0011f66772.mockapi.io/users/'
-
+	//used file object json
+	//private apiUrl = 'http://595b3ea8c985be0011f66772.mockapi.io/users/'
+	private apiUrl = './app/-services/user.service.json'
+	
 	constructor(
 		private _httpService : Http
 		

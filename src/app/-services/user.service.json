@@ -1,0 +1,8 @@
+[
+    {"id":"1","username":"caothang","password":"123456","email":"thang-nc@fujinet.net","fullname":"Nguyễn Cao Thăng","stafftitle":"SS3","department":"Dept1-Team1.1","userrole":"member","status":true,"imageUrl":"imageUrl 1"},
+    {"id":"2","username":"username 2","password":"password 2","email":"email 2","fullname":"fullname 2","stafftitle":"stafftitle 2","department":"department 2","userrole":"userrole 2","status":false,"imageUrl":"imageUrl 2"},
+    {"id":"3","username":"username 3","password":"password 3","email":"email 3","fullname":"fullname 3","stafftitle":"stafftitle 3","department":"department 3","userrole":"userrole 3","status":false,"imageUrl":"imageUrl 3"},
+    {"id":"4","username":"username 4","password":"password 4","email":"email 4","fullname":"fullname 4","stafftitle":"stafftitle 4","department":"department 4","userrole":"userrole 4","status":false,"imageUrl":"imageUrl 4"},
+    {"id":"5","username":"username 5","password":"password 5","email":"email 5","fullname":"fullname 5","stafftitle":"stafftitle 5","department":"department 5","userrole":"userrole 5","status":false,"imageUrl":"imageUrl 5"},
+    {"id":"6","username":"username 6","password":"password 6","email":"email 6","fullname":"fullname 6","stafftitle":"stafftitle 6","department":"department 6","userrole":"userrole 6","status":false,"imageUrl":"imageUrl 6"}
+]
